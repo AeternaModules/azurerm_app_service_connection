@@ -24,7 +24,7 @@ EOT
     app_service_id     = string
     name               = string
     target_resource_id = string
-    client_type        = optional(string) # Default: "none"
+    client_type        = optional(string)
     vnet_solution      = optional(string)
     authentication = object({
       certificate     = optional(string)
